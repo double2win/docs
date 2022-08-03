@@ -1,4 +1,5 @@
 .bookignore
+.nojekyll
 Instruction.md
 package-lock.json
 package.json
