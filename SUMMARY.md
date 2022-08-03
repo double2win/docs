@@ -1,4 +1,5 @@
 # Summary
 
-* [Introduction](Introduction.md)
+* [Double](README.md)
+* [Capital](Capital.md)
 
