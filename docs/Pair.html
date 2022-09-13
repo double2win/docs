@@ -3,7 +3,7 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <title>Double </title>
+        <title>Pair </title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 3.7.5">
@@ -56,8 +56,8 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="BasicFunctions.html" />
     
+    <link rel="prev" href="Token.html" />
     
 
     </head>
@@ -86,7 +86,7 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -138,7 +138,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="Pair.html">
+        <li class="chapter active" data-level="1.5" data-path="Pair.html">
             
                 <a href="Pair.html">
             
@@ -182,7 +182,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Double</a>
+        <a href="." >Pair</a>
     </h1>
 </div>
 
@@ -197,8 +197,36 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="double-user-guide">Double User Guide</h1>
-<p>Double enables capital providers to earn 2x their return to provide liquidity within the protocol. To do this the protocol pairs token projects with Liquidity providers. The Projects deposit their tokens and create a pair of their choice in their favorite AMM. This enables the liquidity providers to supply the capital to pair with that liquidity. Since liquidity providers don’t need to provide any tokens from the token side it drastically reduces token-side risk. It enables them to use 2x the amount of capital than they usually would in the transaction since they do not need to buy any tokens.</p>
+                                <h1 id="pair">Pair</h1>
+<p>Liquidity providers with LP positions in an AMM can migrate their liquidity to the Double protocol and earn DDJ Tokens. Positions are restricted to containing at least one capital type preselected inside the protocol (DAI, USDC, USDT, or WETH, WBTC)</p>
+<h2 id="import-a-position">Import a Position</h2>
+<ol>
+<li>Select the correct AMM using the<strong> AMM Selector </strong>dropdown</li>
+<li>Click<strong> Import</strong></li>
+<li>Find your LP tokens by selecting the pair of tokens in your liquidity position<ol>
+<li>Select the capital type</li>
+<li>Search for your token using it’s name or contract address</li>
+</ol>
+</li>
+<li>Click the 0.0 number field and enter the amount of tokens you would like to import<ol>
+<li>tip: Clicking on the<strong> Balance</strong> amount will autofill the max amount</li>
+</ol>
+</li>
+<li>Click <strong>Import </strong>to approve the transaction</li>
+<li>Confirm the prompt from your wallet to sign the transaction.</li>
+<li>You can view the progress, as well as the success or failure of the transaction in the block explorer popup once your transaction is submitted</li>
+<li>Once your transaction is processed by the network the position will appear on your dashboard.</li>
+</ol>
+<h2 id="migrate-liquidity">Migrate Liquidity</h2>
+<ol>
+<li>Select the correct AMM using the<strong> AMM Selector </strong>dropdown</li>
+<li>Click the dropdown arrow next to the liquidity position you would like to migrate</li>
+<li>Click <strong>Migrate</strong> <strong>Liquidity</strong></li>
+<li>Click <strong>Migrate</strong></li>
+<li>Confirm the prompt from your wallet to sign the transaction.</li>
+<li>You can view the progress, as well as the success or failure of the transaction in the block explorer popup once your transaction is submitted</li>
+<li>Once your transaction is processed by the network the position will appear as closed on your dashboard.</li>
+</ol>
 
                                 
                                 </section>
@@ -226,10 +254,10 @@
 
             
                 
-                
-                <a href="BasicFunctions.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Basic Functions">
-                    <i class="fa fa-angle-right"></i>
+                <a href="Token.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Token">
+                    <i class="fa fa-angle-left"></i>
                 </a>
+                
                 
             
         
@@ -238,7 +266,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Double","level":"1.1","depth":1,"next":{"title":"Basic Functions","level":"1.2","depth":1,"path":"BasicFunctions.md","ref":"BasicFunctions.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2022-09-12T13:44:38.000Z","type":"markdown"},"gitbook":{"version":"3.7.5","time":"2022-09-12T13:50:34.950Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Pair","level":"1.5","depth":1,"previous":{"title":"Token","level":"1.4","depth":1,"path":"Token.md","ref":"Token.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Pair.md","mtime":"2022-09-12T13:37:31.000Z","type":"markdown"},"gitbook":{"version":"3.7.5","time":"2022-09-12T13:50:34.950Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

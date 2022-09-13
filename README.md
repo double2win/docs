@@ -1,2 +1,3 @@
-# Readme
+# Double User Guide
 
+Double enables capital providers to earn 2x their return to provide liquidity within the protocol. To do this the protocol pairs token projects with Liquidity providers. The Projects deposit their tokens and create a pair of their choice in their favorite AMM. This enables the liquidity providers to supply the capital to pair with that liquidity. Since liquidity providers don’t need to provide any tokens from the token side it drastically reduces token-side risk. It enables them to use 2x the amount of capital than they usually would in the transaction since they do not need to buy any tokens.
