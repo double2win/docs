@@ -226,33 +226,47 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="ddc">DDC</h1>
-<h2 id="import-a-position">Import a Position</h2>
+<p>Double Down Club (DDC) is a non-fungible token (NFT/ERC721) that is designed like a club membership to allow only DDC holders or their delegated wallets to supply capital into Double and enjoy the amazing value offered by Double to capital providers - double the ROI while at the same time significantly reduce the risk of impermanent loss! DDC is a per chain based token and a new DDC token will be launched on every chain where Double is launched.</p>
+<p>More information on Utility, allocation, distribution and growth can be found here.</p>
+<h2 id="capital-supply-allowance">Capital Supply Allowance</h2>
+<p>To supply capital into Double, a wallet must deposit DDC directly into Double or has been delegated by other wallets that have deposited DDC into Double. Each DDC has a capital supply cap - the maximum amount of capital a wallet can supply into Double. It is initially set to $10,000 and the highest value of the cap is intended to be $100,000. The capital supply cap can be adjusted up and down initially only by the team, to respond to the market demand dynamic.</p>
+<h2 id="deposit">Deposit</h2>
+<p>Depositing DDC will give you a higher capital allowance to create positions in Double.</p>
 <ol>
-<li>Select the correct AMM using the<strong> AMM Selector </strong>dropdown</li>
-<li>Click<strong> Import</strong></li>
-<li>Find your LP tokens by selecting the pair of tokens in your liquidity position<ol>
-<li>Select the capital type</li>
-<li>Search for your token using it’s name or contract address</li>
+<li>Connect your wallet </li>
+<li>Click the dropdown arrow in the <strong>Deposit</strong> row.</li>
+<li>Click the <strong>Select an NFT</strong> button to choose the DDC you would like to deposit</li>
+<li>Click the <strong>Deposit</strong> button</li>
+<li>Finalize the transaction in your wallet.</li>
 </ol>
-</li>
-<li>Click the 0.0 number field and enter the amount of tokens you would like to import<ol>
-<li>tip: Clicking on the<strong> Balance</strong> amount will autofill the max amount</li>
-</ol>
-</li>
-<li>Click <strong>Import </strong>to approve the transaction</li>
-<li>Confirm the prompt from your wallet to sign the transaction.</li>
-<li>You can view the progress, as well as the success or failure of the transaction in the block explorer popup once your transaction is submitted</li>
-<li>Once your transaction is processed by the network the position will appear on your dashboard.</li>
-</ol>
-<h2 id="migrate-liquidity">Migrate Liquidity</h2>
+<h2 id="withdraw">Withdraw</h2>
 <ol>
-<li>Select the correct AMM using the<strong> AMM Selector </strong>dropdown</li>
-<li>Click the dropdown arrow next to the liquidity position you would like to migrate</li>
-<li>Click <strong>Migrate</strong> <strong>Liquidity</strong></li>
-<li>Click <strong>Migrate</strong></li>
-<li>Confirm the prompt from your wallet to sign the transaction.</li>
-<li>You can view the progress, as well as the success or failure of the transaction in the block explorer popup once your transaction is submitted</li>
-<li>Once your transaction is processed by the network the position will appear as closed on your dashboard.</li>
+<li>Connect your wallet</li>
+<li>Click the dropdown arrow in the <strong>Deposit</strong> row.</li>
+<li>Select the  DDC you would like to withdraw.</li>
+<li>Click the <strong>Withdraw</strong> button.</li>
+</ol>
+<p><em>Note: DDCs can only be withdrawn if there is enough capital allowance available for the current positions you hold on Double in the capital page. If you&apos;d like to remove all DDCs first close all positions before withdrawing.</em></p>
+<h2 id="delegation---details">Delegation - Details</h2>
+<p>To encourage collaboration between DDC holders who don’t have enough capital to supply into Double and users who like to supply more capital into Double but don’t have enough DDC, it is designed that the power to supply capital of each DDC can be delegated from one wallet to another wallet.</p>
+<p>For example, if wallet #1 deposits two DDC into Double, then wallet #1 can supply up to $20,000 ($10,000 * 2) capital (e.g. stablecoins, WETH, WBTC or any other configured capital types) into Double to create AMM LP positions. The supply cap is per chain based, not per AMM based. So if there are two AMMs supported by Double in one chain, the combined capital supplied into these 2 AMMs can’t be more than $20,000.</p>
+<p>In the above example, wallet #1 can delegate 1 DDC to wallet #2. Then wallet #1 can only supply up to $10,000 instead of $20,000 capital into Double. And wallet #2 can supply up to $10,000 capital into Double even though wallet #2 does not own any DDC. The delegation is per DDC based, not capital amount based, e.g. wallet #1 can’t delegate $5000 supply allowance to wallet #2.</p>
+<h2 id="how-to-delegate">How to Delegate</h2>
+<ol>
+<li>With your wallet connected, ensure that you have at least 1 full DDC deposited into the smart contract. <em>(See the &quot;Deposit&quot; section on this page for more details)</em></li>
+<li>Click the dropdown arrow in the &quot;Delegate&quot; row.</li>
+<li>Enter the address that you wish to delegate to. <em>The address must be on the same blockchain network as the one you are connected to - i.e. you can not bridge the DDC to ETH if it is on CELO</em></li>
+<li>Enter the amount of DDC you wish to delegate to the receiver.</li>
+</ol>
+<h2 id="undelegate">Undelegate</h2>
+<p><em>Delegated DDCs must close out of all positions or have enough capital allowance to fill their positions by another DDC in order to undelegate</em> </p>
+<ol>
+<li>Ensure your wallet is connected.</li>
+<li>Click the dropdown arrow in the &quot;Undelegate&quot; row.</li>
+<li>Select the address you wish to undelegate from.</li>
+<li>Enter the amount you wish to undelegate.</li>
+<li>Click <strong>Undelegate</strong></li>
+<li>Finalize the transaction in your wallet.</li>
 </ol>
 
                                 
@@ -297,7 +311,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"DDC","level":"1.6","depth":1,"next":{"title":"DDJ","level":"1.7","depth":1,"path":"DDJ.md","ref":"DDJ.md","articles":[]},"previous":{"title":"Pair","level":"1.5","depth":1,"path":"Pair.md","ref":"Pair.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"DDC.md","mtime":"2023-06-13T00:36:40.282Z","type":"markdown"},"gitbook":{"version":"3.7.5","time":"2023-06-13T00:37:05.984Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"DDC","level":"1.6","depth":1,"next":{"title":"DDJ","level":"1.7","depth":1,"path":"DDJ.md","ref":"DDJ.md","articles":[]},"previous":{"title":"Pair","level":"1.5","depth":1,"path":"Pair.md","ref":"Pair.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"DDC.md","mtime":"2023-06-14T16:26:34.000Z","type":"markdown"},"gitbook":{"version":"3.7.5","time":"2023-06-14T18:23:13.632Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -349,6 +363,10 @@
     </script>
     <script src="gitbook/gitbook.js"></script>
     <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
     
         
         <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>

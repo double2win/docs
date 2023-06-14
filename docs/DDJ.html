@@ -224,34 +224,22 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="ddj">DDJ</h1>
-<p>Liquidity providers with LP positions in an AMM can migrate their liquidity to the Double protocol and earn DDJ Tokens. Positions are restricted to containing at least one capital type preselected inside the protocol (DAI, USDC, USDT, or WETH, WBTC)</p>
-<h2 id="import-a-position">Import a Position</h2>
+<p>Double Dip Joy (DDJ) is a fungible token (ERC20) that is designed like a loyal point to reward contribution to the Double economy. It has no premine and no cap. DDJ is a per chain based token and a new DDJ token will be launched on every chain where Double is launched.</p>
+<h2 id="ddj-utility-and-demand">DDJ Utility and Demand</h2>
+<p>By design, DDJ is a utility token. It is the only token that can be used to purchase or breed Double Down Club (DDC). DDC is also a utility token by design and is required to supply capital into Double and capture the benefits of doubling ROI while at the same time significantly reducing impermanent loss for capital providers. DDJ has strong protocol native demand due to the strong demand of DDC. </p>
+<h2 id="ddj-issuance">DDJ Issuance</h2>
+<p>DDJ will be issued based on the contribution to the Double economy, more specifically DDJ will be issued based on the fees collected by the Double protocol.</p>
+<p>Let’s use an example to explain how the DDJ issuance works in detail. 
+Assume a capital provider supplies 10,000 USDC for the AMM pool <ddj, usdc> and when this position is closed, the LP return (e.g. fees earned by this position) is 1,000 USDC in value.
+The fee collected by Double will be 100 USDC based on the 10% commision rate configured in the protocol. Based on a reward ratio of 1 DDJ per dollar, 100 DDJ will be issued for this position. 
+Of the 100 DDJ, the capital provider will receive 50 DDJ (50%). And the pool of DDJ will receive the other 50 DDJ (50%), which will be distributed to all DDJ depositors in the pool pro-rata based on their DDJ position sizes. </ddj,></p>
+<p>The commission rate and reward ratio are designed as monetary policy parameters, which can be adjusted up and down initially only by the team, to maintain a healthy Double economy.</p>
+<h2 id="claiming-ddj">Claiming DDJ</h2>
+<p><strong> DDJ can only be claimed once the withdrawal threshhold is reached </strong></p>
 <ol>
-<li>Select the correct AMM using the<strong> AMM Selector </strong>dropdown</li>
-<li>Click<strong> Import</strong></li>
-<li>Find your LP tokens by selecting the pair of tokens in your liquidity position<ol>
-<li>Select the capital type</li>
-<li>Search for your token using it’s name or contract address</li>
-</ol>
-</li>
-<li>Click the 0.0 number field and enter the amount of tokens you would like to import<ol>
-<li>tip: Clicking on the<strong> Balance</strong> amount will autofill the max amount</li>
-</ol>
-</li>
-<li>Click <strong>Import </strong>to approve the transaction</li>
-<li>Confirm the prompt from your wallet to sign the transaction.</li>
-<li>You can view the progress, as well as the success or failure of the transaction in the block explorer popup once your transaction is submitted</li>
-<li>Once your transaction is processed by the network the position will appear on your dashboard.</li>
-</ol>
-<h2 id="migrate-liquidity">Migrate Liquidity</h2>
-<ol>
-<li>Select the correct AMM using the<strong> AMM Selector </strong>dropdown</li>
-<li>Click the dropdown arrow next to the liquidity position you would like to migrate</li>
-<li>Click <strong>Migrate</strong> <strong>Liquidity</strong></li>
-<li>Click <strong>Migrate</strong></li>
-<li>Confirm the prompt from your wallet to sign the transaction.</li>
-<li>You can view the progress, as well as the success or failure of the transaction in the block explorer popup once your transaction is submitted</li>
-<li>Once your transaction is processed by the network the position will appear as closed on your dashboard.</li>
+<li>Connect your wallet via Metamask or Wallet Connect.</li>
+<li>Click <strong>Withdraw &amp; Mint DDJ</strong>.</li>
+<li>Finalize the transaction in your wallet, this will require gas for minting the tokens.</li>
 </ol>
 
                                 
@@ -292,7 +280,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"DDJ","level":"1.7","depth":1,"previous":{"title":"DDC","level":"1.6","depth":1,"path":"DDC.md","ref":"DDC.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"DDJ.md","mtime":"2023-06-13T00:36:40.282Z","type":"markdown"},"gitbook":{"version":"3.7.5","time":"2023-06-13T00:37:05.984Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"DDJ","level":"1.7","depth":1,"previous":{"title":"DDC","level":"1.6","depth":1,"path":"DDC.md","ref":"DDC.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"DDJ.md","mtime":"2023-06-13T14:12:31.000Z","type":"markdown"},"gitbook":{"version":"3.7.5","time":"2023-06-14T18:23:13.632Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -344,6 +332,10 @@
     </script>
     <script src="gitbook/gitbook.js"></script>
     <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
     
         
         <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>

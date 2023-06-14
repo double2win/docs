@@ -1,33 +1,25 @@
 # DDJ
 
-Liquidity providers with LP positions in an AMM can migrate their liquidity to the Double protocol and earn DDJ Tokens. Positions are restricted to containing at least one capital type preselected inside the protocol (DAI, USDC, USDT, or WETH, WBTC)
+Double Dip Joy (DDJ) is a fungible token (ERC20) that is designed like a loyal point to reward contribution to the Double economy. It has no premine and no cap. DDJ is a per chain based token and a new DDJ token will be launched on every chain where Double is launched.
 
+## DDJ Utility and Demand
 
-## Import a Position
+By design, DDJ is a utility token. It is the only token that can be used to purchase or breed Double Down Club (DDC). DDC is also a utility token by design and is required to supply capital into Double and capture the benefits of doubling ROI while at the same time significantly reducing impermanent loss for capital providers. DDJ has strong protocol native demand due to the strong demand of DDC. 
 
+## DDJ Issuance
 
+DDJ will be issued based on the contribution to the Double economy, more specifically DDJ will be issued based on the fees collected by the Double protocol.
 
-1. Select the correct AMM using the** AMM Selector **dropdown
-2. Click** Import**
-3. Find your LP tokens by selecting the pair of tokens in your liquidity position
-    1. Select the capital type
-    2. Search for your token using it’s name or contract address
-4. Click the 0.0 number field and enter the amount of tokens you would like to import
-    3. tip: Clicking on the** Balance** amount will autofill the max amount
-5. Click **Import **to approve the transaction
-6. Confirm the prompt from your wallet to sign the transaction.
-7. You can view the progress, as well as the success or failure of the transaction in the block explorer popup once your transaction is submitted
-8. Once your transaction is processed by the network the position will appear on your dashboard.
+Let’s use an example to explain how the DDJ issuance works in detail. 
+Assume a capital provider supplies 10,000 USDC for the AMM pool <DDJ, USDC> and when this position is closed, the LP return (e.g. fees earned by this position) is 1,000 USDC in value.
+The fee collected by Double will be 100 USDC based on the 10% commision rate configured in the protocol. Based on a reward ratio of 1 DDJ per dollar, 100 DDJ will be issued for this position. 
+Of the 100 DDJ, the capital provider will receive 50 DDJ (50%). And the pool of DDJ will receive the other 50 DDJ (50%), which will be distributed to all DDJ depositors in the pool pro-rata based on their DDJ position sizes. 
 
+The commission rate and reward ratio are designed as monetary policy parameters, which can be adjusted up and down initially only by the team, to maintain a healthy Double economy.
 
-## Migrate Liquidity
+## Claiming DDJ
 
-
-
-1. Select the correct AMM using the** AMM Selector **dropdown
-2. Click the dropdown arrow next to the liquidity position you would like to migrate
-3. Click **Migrate** **Liquidity**
-4. Click **Migrate**
-5. Confirm the prompt from your wallet to sign the transaction.
-6. You can view the progress, as well as the success or failure of the transaction in the block explorer popup once your transaction is submitted
-7. Once your transaction is processed by the network the position will appear as closed on your dashboard.
+** DDJ can only be claimed once the withdrawal threshhold is reached **
+1. Connect your wallet via Metamask or Wallet Connect.
+2. Click **Withdraw & Mint DDJ**.
+3. Finalize the transaction in your wallet, this will require gas for minting the tokens.
