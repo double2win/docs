@@ -88,7 +88,27 @@
         
         
     
-        <li class="chapter " data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="Genesis.html">
+            
+                <a href="Genesis.html">
+            
+                    
+                    Genesis Event
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="./">
             
                 <a href="./">
             
@@ -101,7 +121,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="BasicFunctions.html">
+        <li class="chapter " data-level="2.2" data-path="BasicFunctions.html">
             
                 <a href="BasicFunctions.html">
             
@@ -114,7 +134,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3" data-path="Capital.html">
+        <li class="chapter active" data-level="2.3" data-path="Capital.html">
             
                 <a href="Capital.html">
             
@@ -127,7 +147,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="Token.html">
+        <li class="chapter " data-level="2.4" data-path="Token.html">
             
                 <a href="Token.html">
             
@@ -140,7 +160,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="Pair.html">
+        <li class="chapter " data-level="2.5" data-path="Pair.html">
             
                 <a href="Pair.html">
             
@@ -153,7 +173,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6" data-path="DDC.html">
+        <li class="chapter " data-level="2.6" data-path="DDC.html">
             
                 <a href="DDC.html">
             
@@ -166,25 +186,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="DDJ.html">
+        <li class="chapter " data-level="2.7" data-path="DDJ.html">
             
                 <a href="DDJ.html">
             
                     
                     DDJ
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8" data-path="Genesis.html">
-            
-                <a href="Genesis.html">
-            
-                    
-                    Genesis Event
             
                 </a>
             
@@ -239,38 +246,39 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="capital">Capital</h1>
-<h2 id="create-a-new-position">Create a New Position</h2>
-<p>The amount of Capital you are allowed to contribute is dependent on the DDC (Double Down Club NFTs) you have in your wallet ($10,000 per DDC is allowed). See the DDC/DDJ [LINK PAGE to text] page for more details.
-You can create a liquidity position with any token in Double. </p>
-<p>However, the token must have a pool/pair on your selected AMM and also have tokens available in the Double Token Vault in order to be a valid pair. To learn how to add tokens to the double vault see the Deposit Tokens Section under the Token Page in this manual.</p>
+<p>The amount of Capital you are allowed to contribute is dependent on the DDC (Double Down Club NFTs) you have in your wallet. See the <a href="DDC.html">DDC</a> page for more details.</p>
+<p>You can create a liquidity position with any token in Double. However, the token must have a pool/pair on your selected AMM and also have tokens available in the Double Token Vault in order to be a valid pair. </p>
+<p>To learn how to add tokens to the double vault see the Deposit Tokens Section under the <a href="Token.html">Token Page</a> in this manual.</p>
+<h2 id="checking-your-capital-allowance">Checking Your Capital Allowance</h2>
 <ol>
-<li>To start you need to check your Capital Allowance. </li>
-<li>Navigate to the DDC Page</li>
-<li>If you are holding DDC in your wallet you will be able to deposit the DDC to the Smart Contract. </li>
-<li>Click the Dropdown Arrow.</li>
-<li>Select the DDC you would like to Deposit 
-⁃ Note: if you don’t have any DDC see the DDC page for more information</li>
-<li>Click Deposit and confirm the transaction in your wallet</li>
-<li>Next Navigate to the Capital Page</li>
-<li>Click New Position</li>
-<li>Select your desired Capital</li>
-<li>Select or import the token from its contract address</li>
+<li>To start you need to check your <strong>Capital Allowance</strong></li>
+<li>Navigate to the <strong>DDC Page</strong></li>
+<li>If you are holding DDC in your wallet you will be able to deposit the DDC to the Smart Contract</li>
+<li>Click the <strong>Dropdown Arrow</strong> next to the <strong>Deposit</strong> row</li>
+<li>Select the DDC you would like to Deposit
+<em>⁃ Note: if you don’t have any DDC see the <a href="DDC.html">DDC</a>  page in this guide for more information</em></li>
+<li>Click <strong>Deposit</strong> and confirm the transaction in your wallet</li>
+</ol>
+<h2 id="creating-a-new-position">Creating a New Position</h2>
+<ol>
+<li>Navigate to the <strong>Capital Page</strong></li>
+<li>Click <strong>New Position</strong></li>
+<li>Select your desired Capital Type (Celo, cUSD, ETH, etc.)</li>
+<li>Next, select or import the token from its contract address</li>
 <li>Input the amount of Capital or the number of Tokens you would like to use in the transaction</li>
 <li>Approve the double smart contract to transact with each of the assets (if you have not approved them yet - you only need to do this once per asset)</li>
-<li>Click Add Liquidity to approve the transaction</li>
-<li>Confirm the prompt from your wallet to sign the transaction.</li>
+<li>Click <strong>Add Liquidity</strong> to approve the transaction</li>
+<li>Confirm the prompt from your wallet to sign the transaction</li>
 <li>You can view the progress, as well as the success or failure of the transaction in the block explorer popup once your transaction is submitted</li>
-<li>Once your transaction is processed by the network the position will appear on your dashboard.</li>
+<li>Once your transaction is processed by the network the position will appear on your dashboard</li>
 </ol>
 <h2 id="close-a-position">Close a Position</h2>
+<p>In order to close a position you will need to supply the borrowed tokens back to the contract. if tokens are owed you will need to source the remaining balance of tokens owed from an AMM or another wallet before you may close your position.</p>
 <ol>
-<li>Select the correct AMM using the<strong> AMM Selector </strong>dropdown</li>
-<li>Click the dropdown arrow next to the position you would like to close, to expand details on the position.</li>
-<li>Click <strong>Remove Liquidity</strong>    <ol>
-<li>If you owe tokens due to impermanent loss then the contract will ask you to repay the token amount and approve the transaction</li>
-<li>If you do not owe tokens click approve to finalize the transaction</li>
-</ol>
-</li>
+<li>Select the correct AMM using the <strong>AMM Selector</strong> dropdown</li>
+<li>Click the <strong>dropdown arrow</strong> next to the position you would like to close, to expand details on the position.</li>
+<li>Click <strong>Remove Liquidity</strong><br> <em>1. If you owe tokens due to impermanent loss then the contract will ask you to repay the token amount and approve the transaction</em>
+ <em>2. If you do not owe tokens click approve to finalize the transaction</em></li>
 </ol>
 
                                 
@@ -315,7 +323,7 @@ You can create a liquidity position with any token in Double. </p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Capital","level":"1.3","depth":1,"next":{"title":"Token","level":"1.4","depth":1,"path":"Token.md","ref":"Token.md","articles":[]},"previous":{"title":"Basic Functions","level":"1.2","depth":1,"path":"BasicFunctions.md","ref":"BasicFunctions.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Capital.md","mtime":"2023-06-21T01:36:16.895Z","type":"markdown"},"gitbook":{"version":"3.7.5","time":"2023-06-21T01:36:39.807Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Capital","level":"2.3","depth":1,"next":{"title":"Token","level":"2.4","depth":1,"path":"Token.md","ref":"Token.md","articles":[]},"previous":{"title":"Basic Functions","level":"2.2","depth":1,"path":"BasicFunctions.md","ref":"BasicFunctions.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Capital.md","mtime":"2023-06-21T05:34:47.517Z","type":"markdown"},"gitbook":{"version":"3.7.5","time":"2023-06-21T05:34:55.884Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

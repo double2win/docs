@@ -15,9 +15,9 @@ Liquidity providers with LP positions in an AMM can migrate their liquidity to t
 4. Click the 0.0 number field and enter the amount of tokens you would like to import
     3. tip: Clicking on the** Balance** amount will autofill the max amount
 5. Click **Import **to approve the transaction
-6. Confirm the prompt from your wallet to sign the transaction.
+6. Confirm the prompt from your wallet to sign the transaction
 7. You can view the progress, as well as the success or failure of the transaction in the block explorer popup once your transaction is submitted
-8. Once your transaction is processed by the network the position will appear on your dashboard.
+8. Once your transaction is processed by the network the position will appear on your dashboard
 
 
 ## Migrate Liquidity
@@ -28,6 +28,6 @@ Liquidity providers with LP positions in an AMM can migrate their liquidity to t
 2. Click the dropdown arrow next to the liquidity position you would like to migrate
 3. Click **Migrate** **Liquidity**
 4. Click **Migrate**
-5. Confirm the prompt from your wallet to sign the transaction.
+5. Confirm the prompt from your wallet to sign the transaction
 6. You can view the progress, as well as the success or failure of the transaction in the block explorer popup once your transaction is submitted
-7. Once your transaction is processed by the network the position will appear as closed on your dashboard.
+7. Once your transaction is processed by the network the position will appear as closed on your dashboard
