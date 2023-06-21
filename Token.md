@@ -7,7 +7,7 @@ Anyone can add assets to the double token vault
 
 
 
-1. Click **Deposit**
+1. With your wallet connected, Click **Deposit**
 2. Click **Select a Token**
 3. Find your token by searching for it by name or by the contract address
 4. Click **Import**

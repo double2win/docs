@@ -1,8 +1,8 @@
 # DDC
 
-Double Down Club (DDC) is a non-fungible token (NFT/ERC721) that is designed like a club membership to allow only DDC holders or their delegated wallets to supply capital into Double and enjoy the amazing value offered by Double to capital providers - double the ROI while at the same time significantly reduce the risk of impermanent loss! DDC is a per chain based token and a new DDC token will be launched on every chain where Double is launched.
+**Double Down Club (DDC)** is a non-fungible token (NFT/ERC721) that is designed like a **club membership** to allow only DDC holders or their delegated wallets to supply capital into Double and enjoy the amazing value offered by Double to capital providers - double the ROI while at the same time significantly reduce the risk of impermanent loss! DDC is a per chain based token and a new DDC token will be launched on every chain where Double is launched.
 
-More information on Utility, allocation, distribution and growth can be found here.
+More information on Utility, allocation, distribution and growth can be found [here](https://double2win.medium.com/)
 
 ## Capital Supply Allowance
 
@@ -13,17 +13,17 @@ To supply capital into Double, a wallet must deposit DDC directly into Double or
 Depositing DDC will give you a higher capital allowance to create positions in Double.
 
 1. Connect your wallet 
-2. Click the dropdown arrow in the **Deposit** row.
+2. Click the dropdown arrow in the **Deposit** row
 3. Click the **Select an NFT** button to choose the DDC you would like to deposit
 4. Click the **Deposit** button
-5. Finalize the transaction in your wallet.
+5. Finalize the transaction in your wallet
 
 ## Withdraw
 
 1. Connect your wallet
-2. Click the dropdown arrow in the **Deposit** row.
-3. Select the  DDC you would like to withdraw.
-4. Click the **Withdraw** button.
+2. Click the dropdown arrow in the **Deposit** row
+3. Select the  DDC you would like to withdraw
+4. Click the **Withdraw** button
 
 *Note: DDCs can only be withdrawn if there is enough capital allowance available for the current positions you hold on Double in the capital page. If you'd like to remove all DDCs first close all positions before withdrawing.*
 
@@ -37,16 +37,16 @@ In the above example, wallet #1 can delegate 1 DDC to wallet #2. Then wallet #1 
 ## How to Delegate
 
 1. With your wallet connected, ensure that you have at least 1 full DDC deposited into the smart contract. *(See the "Deposit" section on this page for more details)*
-2. Click the dropdown arrow in the "Delegate" row.
+2. Click the dropdown arrow in the "Delegate" row
 3. Enter the address that you wish to delegate to. *The address must be on the same blockchain network as the one you are connected to - i.e. you can not bridge the DDC to ETH if it is on CELO*
-4. Enter the amount of DDC you wish to delegate to the receiver.
+4. Enter the amount of DDC you wish to delegate to the receiver
 
 ## Undelegate
 *Delegated DDCs must close out of all positions or have enough capital allowance to fill their positions by another DDC in order to undelegate* 
 
-1. Ensure your wallet is connected.
-2. Click the dropdown arrow in the "Undelegate" row.
-3. Select the address you wish to undelegate from.
-4. Enter the amount you wish to undelegate.
+1. Ensure your wallet is connected
+2. Click the dropdown arrow in the "Undelegate" row
+3. Select the address you wish to undelegate from
+4. Enter the amount you wish to undelegate
 5. Click **Undelegate**
-6. Finalize the transaction in your wallet.
+6. Finalize the transaction in your wallet
