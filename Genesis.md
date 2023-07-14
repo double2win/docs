@@ -21,6 +21,11 @@ A score will be calculated for each wallet participating in the program. All wal
 The score is a time-based accumulated value of all tokens which a wallet deposits into Double. 
 *For live ranking status, please visit [genesis.double2win.xyz](genesis.double2win.xyz) (the ranking will be updated daily).*
 
+#### Using Wallet Connect
+Wallet connect 2.0 is now live in Double! Here's a video on how to connect your Valora wallet or any other Celo wallet through walletconnect. 
+
+**[Click Here for the Wallet Connect Video](https://twitter.com/double2winwin/status/1678869470486450178?s=20)**
+
 ### Token Value
 To compute the value of a token, 
 1. There must be a pool on **Ubeswap** between the token and **CELO** or **cUSD**, which are configured as capital types on Double, for Celo blockchain *e.g. <token, CELO> or <token, cUSD>* 
