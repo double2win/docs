@@ -27,6 +27,7 @@ To learn how to add tokens to the double vault see the Deposit Tokens Section un
 9. You can view the progress, as well as the success or failure of the transaction in the block explorer popup once your transaction is submitted
 10. Once your transaction is processed by the network the position will appear on your dashboard
 
+*Note: When creating a new position Double sources tokens from the* **Double Vault - Not your personal wallet**. *If the Vault does not have enough tokens you will not be able to make your position. The vault can be accessed on the [Token page](app.double2win.xyz/token). You can request more tokens to be added to the vault from the project, deposit tokens yourself, or wait for tokens to become available.*
 
 ## Close a Position
 In order to close a position you will need to supply the borrowed tokens back to the contract. if tokens are owed you will need to source the remaining balance of tokens owed from an AMM or another wallet before you may close your position.

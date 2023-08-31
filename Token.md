@@ -4,6 +4,8 @@
 ## Deposit Tokens
 
 Anyone can add assets to the double token vault
+*[Click Here for the Wallet Connect Video](https://twitter.com/double2winwin/status/1678869470486450178?s=20)**
+*[Click Here on how to Deposit tokens using Metamask](https://twitter.com/double2winwin/status/1674842957097074689?s=20)**
 
 
 
