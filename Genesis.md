@@ -12,14 +12,14 @@ Via this program, we will be rewarding users of the Double Protocol with both DD
 ## Program Details
 
 ### Participation
-Any holder of any token, issued natively on, or bridged onto the Celo blockchain can participate in this program. To participate, token holders must **deposit tokens** into Double via [app.double2win.xyz](app.double2win.xyz) 
+Any holder of any token, issued natively on, or bridged onto the Celo blockchain can participate in this program. To participate, token holders must **deposit tokens** into Double via [app.double2win.xyz](https://app.double2win.xyz) 
 
 A score will be calculated for each wallet participating in the program. All wallets are ranked based on the score. 
 1. **Top 100,000 wallets** will receive the reward of **100 DDJ per wallet**
 2. **Top 100 wallets** will receive the reward of **1 DDC per wallet**
 
 The score is a time-based accumulated value of all tokens which a wallet deposits into Double. 
-*For live ranking status, please visit [genesis.double2win.xyz](genesis.double2win.xyz) (the ranking will be updated daily).*
+*For live ranking status, please visit [genesis.double2win.xyz](https://genesis.double2win.xyz) (the ranking will be updated daily).*
 
 #### Using Wallet Connect
 Wallet connect 2.0 is now live in Double! Here's a video on how to connect your Valora wallet or any other Celo wallet through walletconnect. 
